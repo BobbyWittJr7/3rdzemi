@@ -6,7 +6,7 @@ import sys
 # コマンドライン引数が2つ未満（＝メッセージが指定されていない）場合
 if len(sys.argv) < 2:
     # 使い方の説明を表示する
-    print("使い方: python Sample.py 表示したい文字列")
+    print("使い方: python Sample.py 表示したい文字")
 else:
     # 2番目の引数（1番目はファイル名）を取得してメッセージとして扱う
     message = sys.argv[1]
